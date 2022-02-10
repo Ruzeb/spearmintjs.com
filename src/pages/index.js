@@ -138,7 +138,9 @@ class Homepage extends React.Component {
               </p>
             </div>
             <div className='col-6'>
-              <img id='save-and-get-test' src={darkMode} alt='activate dark mode'/>
+              <span className='image fit'>
+                <img id='save-and-get-test' src={darkMode} alt='activate dark mode'/>
+              </span>
             </div>
           </div>
         </section>
